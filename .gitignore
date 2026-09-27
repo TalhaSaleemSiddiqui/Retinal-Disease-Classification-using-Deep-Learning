@@ -1,0 +1,3 @@
+venv/
+dataset_split/
+best_retinal_model.pth

@@ -122,17 +122,17 @@ normal                      2     0     10        96
 
 ## Screenshots
 
-<img src="image1" width="600">
+<img src="image1.png" width="600">
 
-<img src="image2" width="600">
+<img src="image2.png" width="600">
 
-<img src="image3" width="600">
+<img src="image3.png" width="600">
 
-<img src="image4" width="600">
+<img src="image4.png" width="600">
 
-<img src="image5" width="600">
+<img src="image 5.png" width="600">
 
-<img src="image6" width="600">
+<img src="image 6.png" width="600">
 
 ## Tech Stack
 

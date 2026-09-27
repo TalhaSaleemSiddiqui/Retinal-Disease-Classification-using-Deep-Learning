@@ -17,7 +17,6 @@ An end-to-end deep learning project that classifies retinal fundus images into f
 - [Installation](#installation)
 - [Usage](#usage)
 - [Known Limitations](#known-limitations)
-- [Future Improvements](#future-improvements)
 - [License](#license)
 
 ## Overview
@@ -123,11 +122,17 @@ normal                      2     0     10        96
 
 ## Screenshots
 
-| | |
-|---|---|
-| ![App idle state](image1.png) | ![App with scan loaded](image2.png) |
-| ![Diagnostic Confidence result](image3.png) | ![Analysis complete result](image4.png) |
-| ![Screenshot 5](<image 5.png>) | ![Screenshot 6](<image 6.png>) |
+<img src="image1" width="600">
+
+<img src="image2" width="600">
+
+<img src="image3" width="600">
+
+<img src="image4" width="600">
+
+<img src="image5" width="600">
+
+<img src="image6" width="600">
 
 ## Tech Stack
 
@@ -209,12 +214,7 @@ npm install
 - **Aspect ratio distortion:** images are resized directly to 224×224 without preserving aspect ratio, which can distort non-square source images.
 - The model has only been trained and evaluated on this specific dataset and has not been validated against external, independently collected retinal images.
 
-## Future Improvements
 
-- Verify and, if necessary, correct for per-patient duplication in the dataset before trusting the Diabetic Retinopathy score.
-- Train for more epochs with a lighter class-weighting scheme, or apply targeted augmentation to the Glaucoma class, to close the recall gap.
-- Switch to `Resize(256) → CenterCrop(224)` preprocessing to avoid aspect-ratio distortion.
-- Add file-resolution validation on upload to match the level of detail implied by the UI copy.
 
 ## License
 
